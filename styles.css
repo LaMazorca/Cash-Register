@@ -1,0 +1,160 @@
+:root{
+    font-size: 62.5%;
+    --trendyGreen50: #fffbe4;
+    --trendyGreen100: #fff9c6;
+    --trendyGreen200: #fff793;
+    --trendyGreen300: #fff754;
+    --trendyGreen400: #faf521;
+    --trendyGreen500: #e0df02;
+    --trendyGreen600: #b0b400;
+    --trendyGreen700: #888c03;
+    --trendyGreen800: #676b09;
+    --trendyGreen900: #565a0d;
+    --trendyGreen950: #2f3300;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(200deg,var(--trendyGreen700),var(--trendyGreen950));
+    color: var(--trendyGreen50);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+.mazorca-logo {
+    width: 10rem;
+    height: 10rem;
+    margin: -1rem 0;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0 2rem;
+}
+
+.user-input {
+    height: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.check-btn-styles {
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+    color: var(--trendyGreen950);
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: var(--trendyGreen500);
+    background-image: linear-gradient(var(--trendyGreen400), var(--trendyGreen600));
+    border-color: var(--trendyGreen300);
+    border-width: .3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-screen {
+    border: 1rem solid var(--trendyGreen300);
+    background-color: var(--trendyGreen950);
+    height: 5rem;
+    width: 20rem;
+    margin-left: -4rem;
+    color: var(--trendyGreen50);
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.connector {
+    margin-left: -2rem;
+    background-color: var(--trendyGreen300);
+    height: 3rem;
+    width: 4rem;
+}
+
+.top-register {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3.5rem 3.5rem 0 0;
+    padding-top: 2rem;
+    background-color: var(--trendyGreen300);
+    height: 25rem;
+    width: 32.5rem;
+}
+
+.btns-container {
+    width: 25%;
+}
+
+.btn {
+    border-radius: 10%;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--trendyGreen950);
+}
+
+.cash-drawer-display {
+    font-size: 1.5rem;
+    background-color: var(--trendyGreen50);
+    width: 55%;
+    height: 95%;
+    color: var(--trendyGreen950);
+    padding: 1rem;
+}
+
+.bottom-register {
+    background-color: var(--trendyGreen300);
+    height: 5rem;
+    width: 32.5rem;
+    margin-top: 1rem;
+}
+
+.circle {
+    margin: 1.5rem auto;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--trendyGreen950);
+}
+
+#change-due {
+    text-align: left;
+    font-size: 1.5rem;
+}
